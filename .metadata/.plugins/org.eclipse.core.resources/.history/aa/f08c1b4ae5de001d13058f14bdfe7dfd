@@ -1,0 +1,5 @@
+package com.lcwd.user.service.UserService.Config;
+
+public class MyConfig {
+
+}

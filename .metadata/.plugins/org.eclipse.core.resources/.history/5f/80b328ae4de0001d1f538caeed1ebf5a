@@ -1,0 +1,5 @@
+package com.lcwd.foodmenu.services.impl;
+
+public class FoodMenuServiceImpl {
+
+}

@@ -1,0 +1,5 @@
+package com.lcwd.order.entities;
+
+public class Order {
+
+}

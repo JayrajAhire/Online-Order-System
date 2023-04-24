@@ -1,0 +1,40 @@
+package com.lcwd.foodmenu.services.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.lcwd.foodmenu.entities.Food;
+import com.lcwd.foodmenu.repositories.FoodMenuRepositories;
+import com.lcwd.foodmenu.services.FoodMenuInterface;
+
+public class FoodMenuServiceImpl implements FoodMenuInterface{
+	
+	@Autowired
+	FoodMenuRepositories foodRepo;
+
+	@Override
+	public Food createFood(Food food) {
+		
+		return foodRepo.save(food);
+	}
+
+	@Override
+	public List<Food> getAllFood() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Food> getFoodByUserId(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Food> getFoodByHotelId(String HotelId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

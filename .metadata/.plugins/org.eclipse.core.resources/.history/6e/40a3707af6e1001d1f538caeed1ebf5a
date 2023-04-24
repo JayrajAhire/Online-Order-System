@@ -1,0 +1,5 @@
+package com.lcwd.order.repositories;
+
+public interface OrderRepository {
+
+}

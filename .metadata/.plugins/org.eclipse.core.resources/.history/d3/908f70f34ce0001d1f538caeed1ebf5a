@@ -1,0 +1,5 @@
+package com.lcwd.foodmenu.services;
+
+public interface FoodMenuInterface {
+
+}

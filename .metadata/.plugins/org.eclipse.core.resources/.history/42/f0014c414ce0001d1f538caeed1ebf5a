@@ -1,0 +1,11 @@
+package com.lcwd.foodmenu.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.lcwd.foodmenu.entities.FoodMenu;
+
+@Repository
+public interface FoodMenuRepositories extends JpaRepository<FoodMenu, String>{
+
+}
